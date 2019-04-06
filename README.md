@@ -14,4 +14,8 @@ There are some practical issues with above methods when implemented using an ana
 
 ### How did we optimizi ?
 
-However, to optimize this encoding method, we used a different approach. To address this issue, we intentionally delayed the clock pulse (a known delay) so that one clock pulse will come in the middle of each data pulse. 
+However, to optimize this encoding method, we used a different approach. To address this issue, we intentionally delayed the clock pulse (a known delay) so that one clock pulse will come in the middle of the data pulse. With this implementation synchronizing issue is completely solved since the we have intentionally delayed the clock pulse.
+
+![image](https://user-images.githubusercontent.com/45971162/55667819-0802c180-587f-11e9-8013-171d9df1474f.png)
+
+This clock pulse delaying is done at the clock generation. Here we have used a micro-controller to generate the clock signal and the data signal. Therefore, at the initial stage the we have added a delay to the clock pulse. To have the best results the clock pulse is delayed until it comes to the middle of the data pulse. 
