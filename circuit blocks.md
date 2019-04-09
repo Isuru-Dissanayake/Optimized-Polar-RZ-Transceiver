@@ -11,3 +11,10 @@ The way that we have implemented these circuits is by using analog electronic co
 
 Comaparator is used to compare the digital signal with a reference voltage. For that we use a opamp ic. If the reference voltage is given to the positive input and the signal is given to the negetive input, the output wave form is inverted. 
 
+![opamp106](https://user-images.githubusercontent.com/45971162/55793192-f79d5180-5adf-11e9-927e-3b19c456e265.gif)
+### Invertor
+
+This simply invert the digital signal. The signal should be given to the negetive input and the positive input is grounded. Somewhat similar to the comparator circuit if the reference is zero.
+
+![opamp10](https://user-images.githubusercontent.com/45971162/55793378-5f539c80-5ae0-11e9-887b-ac840187e943.gif)
+
