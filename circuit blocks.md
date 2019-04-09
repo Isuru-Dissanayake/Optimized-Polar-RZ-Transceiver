@@ -18,3 +18,7 @@ This simply invert the digital signal. The signal should be given to the negetiv
 
 ![opamp10](https://user-images.githubusercontent.com/45971162/55793378-5f539c80-5ae0-11e9-887b-ac840187e943.gif)
 
+### AND gate
+
+Using a AND gate IC is very easy rather than building AND gates using transistors. However, to have high frequency response, its better to build AND gates using transistors (2sc828). Basically we need two transistors for this and few resistors to bias those transistors.
+
