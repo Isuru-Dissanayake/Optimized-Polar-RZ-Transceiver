@@ -22,7 +22,10 @@ This simply invert the digital signal. The signal should be given to the negetiv
 
 Using a AND gate IC is very easy rather than building AND gates using transistors. However, to have high frequency response, its better to build AND gates using transistors (2sc828). Basically we need two transistors for this and few resistors to bias those transistors.
 
+![and4](https://user-images.githubusercontent.com/45971162/55799318-afd1f680-5aee-11e9-9696-53f4585e4e0c.gif)
+
 ### Adders
 
 Two signals are added together by giving two signals to the positive input of the opamp. Otherthan that the output signal can be amplified by changing resistor values.
+
 
