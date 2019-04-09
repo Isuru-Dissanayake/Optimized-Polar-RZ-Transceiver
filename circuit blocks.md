@@ -28,4 +28,5 @@ Using a AND gate IC is very easy rather than building AND gates using transistor
 
 Two signals are added together by giving two signals to the positive input of the opamp. Otherthan that the output signal can be amplified by changing resistor values.
 
+![AIw4p](https://user-images.githubusercontent.com/45971162/55799404-e9a2fd00-5aee-11e9-911d-80c0a103e324.gif)
 
